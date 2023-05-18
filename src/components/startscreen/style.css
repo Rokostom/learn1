@@ -1,0 +1,63 @@
+img#scrnimg {
+    width: 100%;
+}
+
+div.startscreen-container {
+    padding-bottom: 100px;
+}
+
+div.startscreen-content h1 {
+    font-size: 3em;
+    line-height: 59px;
+    font-weight: bold;
+}
+
+.startscreen-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 0;
+}
+
+p#dnabout {
+margin-top: 58px ;
+
+    font-size: 1.1em;
+    line-height: 22px;
+}
+
+p#lang {
+    writing-mode:vertical-rl;
+
+    font-size: 1em;
+    line-height: 20px;
+    text-align: center;
+}
+
+div.startscreen-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+}
+
+div.startscreen-container li {
+    cursor: pointer;
+}
+
+div.startscreen-container a {
+    font-size: 1.1em;
+    line-height: 22.28px;
+    color: #828282;
+    text-decoration: none;
+}
+
+div.startscreen-container a:hover {
+    color: #333333;
+    transition: 0.33s;
+    cursor: pointer;
+}
