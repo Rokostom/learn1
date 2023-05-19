@@ -19,6 +19,8 @@ div.startscreen-content h1 {
     align-items: center;
 
     padding: 40px 0;
+    padding-top: 115px;
+    padding-bottom: 40px;
 }
 
 p#dnabout {
@@ -34,30 +36,4 @@ p#lang {
     font-size: 1em;
     line-height: 20px;
     text-align: center;
-}
-
-div.startscreen-container ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    padding: 30px 0;
-    border-bottom: 1px solid black;
-}
-
-div.startscreen-container li {
-    cursor: pointer;
-}
-
-div.startscreen-container a {
-    font-size: 1.1em;
-    line-height: 22.28px;
-    color: #828282;
-    text-decoration: none;
-}
-
-div.startscreen-container a:hover {
-    color: #333333;
-    transition: 0.33s;
-    cursor: pointer;
 }

@@ -16,22 +16,31 @@ const Skills = () => {
       <div className="skills-content-container">
         <div className="skills-block">
           <img alt="" src={photoshopImg} id="skills-block-img"></img>
-          <p>Adobe Photoshop</p>
+          <p>
+            Adobe
+            <br /> Photoshop
+          </p>
           <img alt="" src={FourStars}></img>
         </div>
         <div className="skills-block">
           <img alt="" src={illustratorImg} id="skills-block-img"></img>
-          <p>Adobe Illustrator</p>
+          <p>
+            Adobe
+            <br /> Illustrator
+          </p>
           <img alt="" src={ThreeStars}></img>
         </div>
         <div className="skills-block">
           <img alt="" src={afterEffectsImg} id="skills-block-img"></img>
-          <p>Adobe After Effects</p>
+          <p>
+            Adobe After
+            <br /> Effects
+          </p>
           <img alt="" src={FourStars}></img>
         </div>
         <div className="skills-block">
           <img alt="" src={FigmaImg} id="skills-block-img"></img>
-          <p>Adobe Photoshop</p>
+          <p>Figma</p>
           <img alt="" src={FourStars}></img>
         </div>
       </div>

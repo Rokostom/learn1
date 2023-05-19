@@ -1,6 +1,8 @@
 import "./style.css";
 import startscreenImg from "./items/BSPP2266.png";
 
+import Navbar from "./Navbar/Navbar";
+
 // import { Link } from "react-scroll";
 
 const Startscreen = () => {
@@ -36,6 +38,7 @@ const Startscreen = () => {
           </li>
         </ul>
       </nav> */}
+      <Navbar />
       <div className="startscreen-content">
         <h1>
           Denis <br />
