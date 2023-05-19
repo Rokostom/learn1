@@ -1,4 +1,6 @@
 .navbar-container {
+    z-index: 99;
+
     width: 76%;
     position: fixed;
     justify-self: center;

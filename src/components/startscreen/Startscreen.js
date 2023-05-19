@@ -1,9 +1,7 @@
 import "./style.css";
-import startscreenImg from "./items/BSPP2266.png";
+import startscreenImg from "./items/startscreen-photo.svg";
 
 import Navbar from "./Navbar/Navbar";
-
-// import { Link } from "react-scroll";
 
 const Startscreen = () => {
   const rtstyle = {
@@ -11,33 +9,6 @@ const Startscreen = () => {
   };
   return (
     <div className="startscreen-container">
-      {/* <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <Link to="about-id" spy={true} smooth={true} duration={500}>
-              About me
-            </Link>
-          </li>
-          <li>
-            <Link to="skills-id" spy={true} smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to="portf-id" spy={true} smooth={true} duration={500}>
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link to="cont-id" spy={true} smooth={true} duration={500}>
-              Contacts
-            </Link>
-          </li>
-        </ul>
-      </nav> */}
       <Navbar />
       <div className="startscreen-content">
         <h1>

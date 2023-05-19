@@ -28,7 +28,7 @@
     
     border: none;
     border-radius: 45px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
     color: white;
 
     font-size: 18px;
@@ -38,16 +38,16 @@
     width: 19%;
     height: 42px;
 
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .contacts-container button:hover {
-    transition: 0.33s;
-    background-color: rgb(65, 65, 65);
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .contacts-container button:active {
-    background-color: rgb(33, 33, 33);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .socials-logos-container {
@@ -56,6 +56,15 @@
 
 .socials-logos-container a {
     padding: 0 30px;
+}
+
+.socials-logos-container img {
+    transition: 0.4s;
+}
+
+.socials-logos-container img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
 }
 
 p#socials-description {
