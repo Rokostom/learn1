@@ -17,12 +17,11 @@ const About = () => {
         design and everything connected with it.
       </p>
       <p style={pstyle.first}>
-        I'm studying at courses "Web and mobile design
-        <br /> interfaces" in IT-Academy.
+        I'm studying at courses "Web and mobile design interfaces" in
+        IT-Academy.
       </p>
-      <p style={pstyle.last}>
-        Ready to implement excellent projects
-        <br /> with wonderful people.
+      <p id="parThree" style={pstyle.last}>
+        Ready to implement excellent projects with wonderful people.
       </p>
     </div>
   );

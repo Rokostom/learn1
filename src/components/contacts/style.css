@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    font-family: "Arial";
 }
 
 .contacts-container h1 {
@@ -75,4 +73,24 @@ p#socials-description {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts-container h1 {
+        padding-top: 25%;
+        padding-bottom: 10%;
+    }
+
+    .contacts-container button {
+        width: 80%;
+    }
+
+    .socials-logos-container {
+        padding-top: 13%;
+        padding-bottom: 8%;
+    }
+
+    #socials-description {
+        margin-bottom: 15%;
+    }
 }

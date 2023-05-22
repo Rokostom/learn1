@@ -8,7 +8,7 @@ import DribbleLogo from "./items/DribbleLogo.svg";
 const Contacts = () => {
   return (
     <div className="contacts-container">
-      <h1>Contacts</h1>
+      <h1 id="cont-id">Contacts</h1>
       <p>
         Want to know more or just chat?
         <br /> You are welcome!

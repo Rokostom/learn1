@@ -15,33 +15,33 @@ const Skills = () => {
       <p>I work in such programs as</p>
       <div className="skills-content-container">
         <div className="skills-block">
-          <img alt="" src={photoshopImg} id="skills-block-img"></img>
+          <img alt="" src={photoshopImg} className="skills-block-img"></img>
           <p>
             Adobe
             <br /> Photoshop
           </p>
-          <img alt="" src={FourStars}></img>
+          <img alt="" src={FourStars} className="skills-stars"></img>
         </div>
         <div className="skills-block">
-          <img alt="" src={illustratorImg} id="skills-block-img"></img>
+          <img alt="" src={illustratorImg} className="skills-block-img"></img>
           <p>
             Adobe
             <br /> Illustrator
           </p>
-          <img alt="" src={ThreeStars}></img>
+          <img alt="" src={ThreeStars} className="skills-stars"></img>
         </div>
         <div className="skills-block">
-          <img alt="" src={afterEffectsImg} id="skills-block-img"></img>
+          <img alt="" src={afterEffectsImg} className="skills-block-img"></img>
           <p>
             Adobe After
             <br /> Effects
           </p>
-          <img alt="" src={FourStars}></img>
+          <img alt="" src={FourStars} className="skills-stars"></img>
         </div>
         <div className="skills-block">
-          <img alt="" src={FigmaImg} id="skills-block-img"></img>
+          <img alt="" src={FigmaImg} className="skills-block-img"></img>
           <p>Figma</p>
-          <img alt="" src={FourStars}></img>
+          <img alt="" src={FourStars} className="skills-stars"></img>
         </div>
       </div>
     </div>

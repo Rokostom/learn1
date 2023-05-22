@@ -3,6 +3,16 @@
 #root {
   padding: 0 12%;
   scroll-behavior: smooth;
+  font-family: "Verdana";
+}
+
+@media screen and (max-width: 640px) {
+  #root {
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 body {

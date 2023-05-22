@@ -1,6 +1,8 @@
 .portfolio-container {
     background-color: #F6F6F6;
-    font-family: "Arial";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .portfolio-container h1 {
@@ -15,7 +17,6 @@
 
 .portfolio-container img {
     width: 100%;
-    left: 10%;
 }
 
 .portfolio-container a {
@@ -29,4 +30,13 @@
     text-align: center;
 
     color: #070707;
+}
+
+@media screen and (max-width: 640px) {
+    .portfolio-container h1 {
+        padding: 20% 0;
+    }
+    .portfolio-container img {
+        width: 82%;
+    }
 }

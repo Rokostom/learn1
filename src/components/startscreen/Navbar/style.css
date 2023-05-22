@@ -1,7 +1,8 @@
+
 .navbar-container {
     z-index: 99;
 
-    width: 76%;
+    min-width: 76%;
     position: fixed;
     justify-self: center;
     background-color: white;
@@ -32,3 +33,14 @@ nav.navbar-container a:hover, nav.navbar-container p:hover {
     transition: 0.33s;
     cursor: pointer;
 }
+
+@media screen and (max-width: 640px) {
+    .navbar-container {
+        display: none;
+    }
+    .navbar-modified {
+        display: block;
+        position: absolute;
+    }
+}
+

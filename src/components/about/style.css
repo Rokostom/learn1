@@ -1,10 +1,13 @@
 div.about-container {
     height: 506px;
     background-color: #F6F6F6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 div.about-container h1 {
-    font-family: 'Arial';
     font-weight: bold;
     font-size: 2.1em;
     line-height: 42px;
@@ -15,8 +18,23 @@ div.about-container h1 {
 }
 
 div.about-container p {
-    font-family: 'Arial';
-    font-size: 1.15em;
+    font-size: 1em;
     line-height: 22px;
     text-align: center;
+    word-wrap: break-word;
+
+    max-width: 50%;
+}
+
+div.about-container p#parThree {
+    max-width: 35%;
+}
+
+@media screen and (max-width: 640px) {
+    div.about-container p {
+        max-width: 85%;
+    }
+    div.about-container p#parThree {
+        max-width: 80%;
+    }
 }

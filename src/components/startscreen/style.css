@@ -2,6 +2,20 @@ img#scrnimg {
     width: 100%;
 }
 
+img#scrnimg-mobile {
+    display: none;
+    width: 100%;
+}
+
+#hmbrg-button {
+    display: none;
+
+    padding-bottom: 42%;
+
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
 div.startscreen-container {
     padding-bottom: 100px;
 }
@@ -10,6 +24,8 @@ div.startscreen-content h1 {
     font-size: 3em;
     line-height: 59px;
     font-weight: bold;
+
+    width: 60%;
 }
 
 .startscreen-content {
@@ -18,13 +34,13 @@ div.startscreen-content h1 {
     justify-content: space-between;
     align-items: center;
 
-    padding: 40px 0;
+    padding: 15% 0;
     padding-top: 115px;
     padding-bottom: 40px;
 }
 
 p#dnabout {
-margin-top: 58px ;
+    margin-top: 58px ;
 
     font-size: 1.1em;
     line-height: 22px;
@@ -36,4 +52,33 @@ p#lang {
     font-size: 1em;
     line-height: 20px;
     text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .startscreen-content {
+        padding-top: 15.6%;
+
+        width: 100%;
+    }
+
+    .startscreen-content-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #hmbrg-button {
+        display: block;
+    }
+
+    p#lang, img#scrnimg {
+        display: none;
+    }
+
+    p#dnabout {
+        margin-top: 20px;
+    }
+
+    img#scrnimg-mobile {
+        display: block;
+    }
 }

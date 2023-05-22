@@ -31,6 +31,7 @@
     white-space: nowrap;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     width: 10%;
 
@@ -51,8 +52,33 @@
     font-size: 0.9em;
     line-height: 17px;
     text-align: center;
+
+    color: #828282;
+    font-weight: bold;
 }
 
-#skills-block-img {
+.skills-block-img {
     height: 40%;
 }
+
+.skills-stars {
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .skills-content-container {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .skills-block {
+        width: 30%;
+        padding-bottom: 30%;
+    }
+
+    .skills-stars {
+        width: 150%;
+    }
+}
+
