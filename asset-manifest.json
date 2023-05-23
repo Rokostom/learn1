@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "//rokostom.github.io/learn1/static/css/main.4870ae20.css",
+    "main.js": "//rokostom.github.io/learn1/static/js/main.d948e6cd.js",
+    "static/media/startscreen-photo.svg": "//rokostom.github.io/learn1/static/media/startscreen-photo.ae264ae1776cae619533bff1a56fc787.svg",
+    "static/media/startscreen-photo-mobile.svg": "//rokostom.github.io/learn1/static/media/startscreen-photo-mobile.94ce8581b65e793ef0df0308e290d358.svg",
+    "static/media/Braun-project.svg": "//rokostom.github.io/learn1/static/media/Braun-project.b6734b68dc846f9a210e4fb5cdebf826.svg",
+    "static/media/Reebok-project.svg": "//rokostom.github.io/learn1/static/media/Reebok-project.6acb285639f1f52251eb56b067736cf6.svg",
+    "static/media/linkedInLogo.svg": "//rokostom.github.io/learn1/static/media/linkedInLogo.e8b46334c4b0b0ecb0c7d407b7802abd.svg",
+    "static/media/Store-project.svg": "//rokostom.github.io/learn1/static/media/Store-project.ad7fc0bce78cf58255803a99a81240dd.svg",
+    "static/media/DribbleLogo.svg": "//rokostom.github.io/learn1/static/media/DribbleLogo.17a35942f63cb872857c436cfae0a5ce.svg",
+    "static/media/BehanceLogo.svg": "//rokostom.github.io/learn1/static/media/BehanceLogo.4b8558c02e96e1347a9ae880bbad6604.svg",
+    "static/media/PS.svg": "//rokostom.github.io/learn1/static/media/PS.6e8c0c805772ae6432a6dcb7c2956b2f.svg",
+    "static/media/AE.svg": "//rokostom.github.io/learn1/static/media/AE.ab2f07f9b11b4dd8a8fac5a920e1837d.svg",
+    "static/media/AI.svg": "//rokostom.github.io/learn1/static/media/AI.f71c6950edf838a9deadbeabfada8ac2.svg",
+    "static/media/InstagramLogo.svg": "//rokostom.github.io/learn1/static/media/InstagramLogo.5fc9d738e4096f5ad905fd8ecf8fc316.svg",
+    "static/media/Figma.svg": "//rokostom.github.io/learn1/static/media/Figma.8a1e0b4e1f31aacc1f72d70118ebff42.svg",
+    "index.html": "//rokostom.github.io/learn1/index.html",
+    "static/media/x-button.svg": "//rokostom.github.io/learn1/static/media/x-button.720de1cf4b6f49d8221bfffe10c8402f.svg",
+    "static/media/menu-button.svg": "//rokostom.github.io/learn1/static/media/menu-button.973721b6f3b14c650a7971210fce621b.svg",
+    "main.4870ae20.css.map": "//rokostom.github.io/learn1/static/css/main.4870ae20.css.map",
+    "main.d948e6cd.js.map": "//rokostom.github.io/learn1/static/js/main.d948e6cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4870ae20.css",
+    "static/js/main.d948e6cd.js"
+  ]
+}
