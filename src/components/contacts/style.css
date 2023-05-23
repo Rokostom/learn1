@@ -50,10 +50,13 @@
 
 .socials-logos-container {
     padding-top: 9%;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .socials-logos-container a {
-    padding: 0 30px;
+    padding: 0 3%;
 }
 
 .socials-logos-container img {
@@ -88,6 +91,14 @@ p#socials-description {
     .socials-logos-container {
         padding-top: 13%;
         padding-bottom: 8%;
+        padding-top: 9%;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .socials-logos-container a {
+        padding: 0 5%;
     }
 
     #socials-description {
